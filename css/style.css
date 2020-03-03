@@ -1,7 +1,13 @@
 body{
     background: #E38A69;
+    margin: 0;
+    padding: 0;
 }
 p{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
     margin: 0;
     padding: 0;
 }
@@ -22,6 +28,9 @@ p{
     height: 4px;
     background: #3B3B3B;
 }
+.divider{
+    margin-top: -10px;
+}
 .divider__text{
     margin: 0 10px;
     font-family: 'Roboto Slab';
@@ -32,7 +41,7 @@ p{
     color: #3A3A3A;
 }
 .subtitle p{
-    margin-top: 15px;
+    margin-top: 14px;
     text-align: center;
     font-family: 'Oswald';
     font-style: normal;
@@ -43,6 +52,7 @@ p{
 }
 .filter__by{
     margin-bottom: 42px;
+    margin-top: 74px;
 }
 .filter__by p{
     font-family: 'Roboto Slab';
@@ -52,17 +62,19 @@ p{
     line-height: 42px;
     color: #38353E;
 }
+ul{
+    margin-left: 54px;
+}
 .point{
-    margin-right: 8px;
+    margin-right: 18px;
     height: 8px;
     width: 8px;
     background: #959CA3;
     border-radius: 50%;
 }
 .filter__by li{
-    padding:0 28px;
-    margin-right: 50px;
-    margin-left: 26px;
+    padding:0 20px 0 0px;
+    margin-right: 60px;
     display: inline-flex;
     align-items: center;
     list-style-type: none;
@@ -76,9 +88,9 @@ p{
     border-radius: 0px 5px 5px 0px;
 }
 .filter__by li::before{
-    margin-left: -100px;
-    border: 30px solid transparent;
-    border-right: 42px solid #C4C4C4;
+    margin-left: -50px;
+    border: 24px solid transparent;
+    border-right: 26px solid #C4C4C4;
     display: block;
     content:"";
     width: 0;
@@ -102,11 +114,11 @@ p{
     box-shadow: 1.5px 1.5px 4px rgba(0, 0, 0, 0.3);
     border-radius: 6px;
 }
-[class^="images"] img{
+.img{
     padding: 8px 8px 0 8px;
 }
 .icon{
-    margin-top: -40px;
+    margin-top: -44px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,7 +128,7 @@ p{
     border-radius: 50%;
 }
 .images__text{
-    margin-top: 12px;
+    margin-top: -8px;
     margin-bottom: 23px;
     font-family: 'Roboto Slab';
     font-style: normal;
